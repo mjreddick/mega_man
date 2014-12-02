@@ -1,0 +1,19 @@
+/*#board {
+	height: 500px;
+	width: 500px;
+
+}*/
+
+/*body {
+	background-color: yellow;
+}*/
+
+div {
+	overflow: hidden;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
