@@ -249,12 +249,12 @@ function Board (xSize, ySize, xCellSize, yCellSize, numObstacles, numPowerUps) {
 	}
 }
 
-var board = new Board(6, 6, 50, 50, 4, 1);
+var board = new Board(10, 10, 50, 50, 6, 2);
 
 board.createBoard();
 board.updateMegaManPos();
-board.createPowerUps(1);
-board.createObstacles(4);
+board.createPowerUps(2);
+board.createObstacles(6);
 board.addItemsToBoard();
 
 // var myMegaMan = new MegaMan();

@@ -12,6 +12,10 @@ div {
 	overflow: hidden;
 }
 
+#board>div>div {
+	background-image: url("../images/grass.jpg");
+}
+
 img {
 	height: 50px;
 	width: 50px;
