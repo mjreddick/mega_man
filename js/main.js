@@ -117,14 +117,13 @@ function Board (xSize, ySize, xCellSize, yCellSize, numObstacles, numPowerUps) {
 		for(i = 0; i < this.ySize; i++) {
 			rowDivNode = document.createElement("div");
 			rowDivNode.style.textAlign = "center";
-			rowDivNode.style.height = (yCellSize + 2) + 'px';
+			rowDivNode.style.height = (yCellSize) + 'px';
 			boardNode.appendChild(rowDivNode);
 			for(j = 0; j < this.xSize; j++) {
 				divNode = document.createElement("div");
 				divNode.style.height = yCellSize + 'px';
 				divNode.style.width = xCellSize + 'px';
 				divNode.style.display = "inline-block";
-				divNode.style.border = "1px solid black";
 				rowDivNode.appendChild(divNode);
 			}
 		}
